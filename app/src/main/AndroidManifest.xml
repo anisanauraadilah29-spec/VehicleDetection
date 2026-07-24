@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permission Kamera -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <!-- Menandakan aplikasi menggunakan kamera -->
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/whatsapp_image_2026_07_20_at_21_36_57"
+        android:label="Vehicle Detection"
+        android:theme="@style/Theme.VehicleDetection">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

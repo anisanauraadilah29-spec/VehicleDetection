@@ -1,0 +1,6 @@
+- `[x]` Tambahkan aset animasi `anim_pulse.xml`
+- `[x]` Tambahkan aset drawable `ic_scanning_dot.xml`
+- `[x]` Modernisasi `activity_splash.xml` (Futuristic Dark Theme)
+- `[x]` Tambahkan elemen HUD (Corner Brackets & Status) ke `activity_main.xml`
+- `[x]` Jalankan animasi di `MainActivity.kt`
+- `[x]` Verifikasi hasil akhir
